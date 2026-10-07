@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kontakt</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?
     family=Big+Shoulders:wght@700&family=Karla:wght@400;700&family=Fragment+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Base.css">
+    <link rel="stylesheet" href="Kontakt.css">
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
+
         <div class="logo">
+
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bike-icon"
                 viewBox="0 0 16 16">
+
                 <path
                     d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z" />
             </svg>
 
             <div>
                 <h1>EKORREN</h1>
-                <p>Cykelverkstad & Uthyrning</p>
+                <p>Cykelverkstad &amp; Uthyrning</p>
             </div>
+
         </div>
+
 
         <nav>
             <ul>
@@ -34,103 +47,246 @@
                 <li><a href="Kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
+
     </header>
-    ------------------------------------------------------
-    <!-- Kontakt information -->
+
+
+    <main>
+
+        <!--KONTAKT-->
         <section class="contact">
+
+            <!-- VÄNSTER: KONTAKTINFORMATION -->
             <div class="contact-info">
-                <h1> KONTAKT</h1>
-                <p> Adress</p>
-                <p> Skånegatan 61, 116 37 Stockholm</p>
 
-                <p> Telefon</p>
-                <p> 08-500 213 40</p>
+                <h1>KONTAKT</h1>
 
-                <p> E-post</p>
-                <p>
-                <h1> KONTAKT</h1>
-                <p> Adress</p>
-                <p> Skånegatan 61, 116 37 Stockholm</p>
 
-                <p> Telefon</p>
-                <p> 08-500 213 40</p>
+                <!-- ADRESS -->
+                <div class="contact-item">
 
-                <p> E-post</p>
-                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon"
+                        viewBox="0 0 16 16">
+
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                    </svg>
+                    <div>
+                        <p class="contact-label">Adress</p>
+                        <p>Skånegatan 61, 116 37 Stockholm</p>
+                    </div>
+
+                </div>
+
+
+                <!-- TELEFON -->
+                <div class="contact-item">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon"
+                        viewBox="0 0 16 16">
+
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L6.9 8.583a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z" />
+                    </svg>
+                    <div>
+                        <p class="contact-label">Telefon</p>
+                        <p>08-500 213 40</p>
+                    </div>
+
+                </div>
+
+
+                <!-- E-POST -->
+                <div class="contact-item">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon"
+                        viewBox="0 0 16 16">
+
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83 0 12.007V12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v.007L9.239 8.83 8 9.586zM16 4.697v7.104l-5.803-3.558z" />
+                    </svg>
+                    <div>
+                        <p class="contact-label">E-post</p>
+                        <p>hej@ekorrencykel.se</p>
+                    </div>
+
+                </div>
+
+
+                <!-- ÖPPETTIDER -->
+                <div class="opening-hours">
+
+                    <div>
+                        <strong>Mån–fre</strong>
+                        <span>10:00–18:00</span>
+                    </div>
+
+                    <div>
+                        <strong>Lör–sön</strong>
+                        <span>11:00–15:00</span>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="contact-info">
-                <h1> KONTAKT</h1>
-                <p> Adress</p>
-                <p> Skånegatan 61, 116 37 Stockholm</p>
 
-                <p> Telefon</p>
-                <p> 08-500 213 40</p>
 
-                <p> E-post</p>
-                <p> hej@ekorrencykel.se </p>
-
-                <p> Mån-fre 10:00-18:00</p>
-                <p> Lör-sön 11:00-15:00</p>
+            <!-- MITTEN: KONTAKTFORMULÄR -->
+            <div class="contact-form">
+                <h2>SKICKA ETT MEDDELANDE</h2>
+                <form>
+                    <label for="name">Namn</label>
+                    <input type="text" id="name" name="name" placeholder="För- och efternamn">
+                    <label for="email">E-post</label>
+                    <input type="email" id="email" name="email" placeholder="dig@exempel.se">
+                    <label for="message">Meddelande</label>
+                    <textarea id="message" name="message" placeholder="Vad behöver din cykel?"></textarea>
+                    <button type="submit">
+                        Skicka
+                    </button>
+                </form>
             </div>
 
-            <!-- Kontaktformulär -->
-            <div>
-                <p> Skicka ett meddelande</p>
-                <p> Namn</p>
-                <input type="text" name="name" placeholder="För- och efternamn">
 
-                <p> E-post</p>
-                <input type="email" name="email" placeholder="dig@exempel.se">
-
-                <p> Meddelande</p>
-                <textarea name="message" placeholder="Vad behöver din cykel?"></textarea>
-
-                <button type="submit">Skicka</button>
-            </div>
-
+            <!-- HÖGER: KARTA -->
             <div class="map-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.1234567890123!2d18.07000000000001!3d59.33000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d8e8e8e8e8e%3A0x123456789abcdef0!2sSk%C3%A5negatan%2061%2C%20116%2037%20Stockholm%2C%20Sweden!5e0!3m2!1sen!2sus!4v1612345678901"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    title="Karta som visar Ekorren cykelverkstad" loading="lazy" allowfullscreen>
+                </iframe>
             </div>
         </section>
-            <!-- Riktning -->
+
+
+        <!--SÅ HITTAR DU HIT-->
         <section class="direction">
-            <div class="direction">
-                <h2> SÅ HITTAR DU HIT </h2>
-                <p> Verkstaden ligger på Skånegatan, oavsett hur du tar dig dit.</p>
+            <h2>SÅ HITTAR DU HIT</h2>
+            <p class="direction-intro">
+                Verkstaden ligger på Skånegatan, oavsett hur du tar dig dit.
+            </p>
 
-                <p> Buss 66</p>
-                <p> Hållplats "Skånegatan" ligger 30 meter från dörren, avgångar var 6:e minut i rusningstid.</p>
+            <div class="direction-cards">
 
-                <p> Tunnelbana</p>
-                <p> Medborgarplatsen (röda linjen), sedan cirka 8 minuters promenad rakt ner på Skånegatan.</p>
 
-                <p> Cykel</p>
-                <p> Cykelparkering dirket utanför dörren, plus låsbara ställ i bakgården för längre ärenden.</p>
+                <!-- BUSS -->
+                <div class="direction-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="icon icon-green" viewBox="0 0 16 16">
+
+                        <path
+                            d="M4 0a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h.5l-.5 2h1l.5-2h5l.5 2h1l-.5-2h.5a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5H3zm0 6h10v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                    </svg>
+                    <h3>Buss 66</h3>
+
+                    <p>
+                        Hållplats "Skånegatan" ligger 30 meter från dörren,
+                        avgångar var 6:e minut i rusningstid.
+                    </p>
+
+                </div>
+
+
+                <!-- TUNNELBANA -->
+                <div class="direction-card">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="icon icon-green" viewBox="0 0 16 16">
+
+                        <path
+                            d="M5 0a4 4 0 0 0-4 4v5a4 4 0 0 0 4 4h.5L4 15h1.5l1-2h3l1 2H12l-1.5-2H11a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zM3 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4H3zm0 5h10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2m1 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                    </svg>
+                    <h3>Tunnelbana</h3>
+
+                    <p>
+                        Medborgarplatsen (röda linjen), sedan cirka 8 minuters
+                        promenad rakt ner på Skånegatan.
+                    </p>
+
+                </div>
+
+
+                <!-- CYKEL -->
+                <div class="direction-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="icon icon-green" viewBox="0 0 16 16">
+
+                        <path
+                            d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z" />
+                    </svg>
+                    <h3>Cykel</h3>
+
+                    <p>
+                        Cykelparkering direkt utanför dörren, plus låsbara
+                        ställ i bakgården för längre ärenden.
+                    </p>
+
+                </div>
+
             </div>
         </section>
 
+
+        <!-- VANLIGA FRÅGOR -->
         <section class="faq">
-            <div>
-                <h2> VANLIGA FRÅGOR </h2>
-                <p> Behöver jag boka tid för en snabb grej, som en punktering?</p>
-                <p> Kan jag lämna cykeln på morgonen och hämta den samma dag?</p>
-                <p> Hyr ni ut lådcyklar även på helger?</p>
-                <p> Är verkstaden tillgänglig med rullstor eller barnvagn? </p>
-            </div>
+            <h2>VANLIGA FRÅGOR</h2>
+
+
+            <details>
+                <summary>
+                    Behöver jag boka tid för en snabb grej, som en punktering?
+                </summary>
+                <p>
+                    Nej, du behöver inte boka tid för en enklare reparation
+                    som en punktering.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Kan jag lämna cykeln på morgonen och hämta den samma dag?
+                </summary>
+                <p>
+                    Ja, om reparationen kan utföras under dagen kan du
+                    hämta cykeln samma dag.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Hyr ni ut lådcyklar även på helger?
+                </summary>
+                <p>
+                    Ja, våra lådcyklar går att hyra även på helger.
+                </p>
+            </details>
+
+
+            <details>
+                <summary>
+                    Är verkstaden tillgänglig med rullstol eller barnvagn?
+                </summary>
+                <p>
+                    Ja, verkstaden är tillgänglig med både rullstol
+                    och barnvagn.
+                </p>
+            </details>
         </section>
+    </main>
 
 
-        <!-- Footer -->
-        <footer>
-            <p>
-                © Cykelverkstan Ekorren
-            </p>
-            <p>
-                Skånegatan 61 · 08-500 213 40
-            </p>
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © Cykelverkstan Ekorren
+        </p>
+        <p>
+            Skånegatan 61 · 08-500 213 40
+        </p>
     </footer>
+
 </body>
 
 </html>

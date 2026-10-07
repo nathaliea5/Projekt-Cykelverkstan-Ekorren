@@ -1,1 +1,300 @@
+* {
+    box-sizing: border-box;
+}
 
+
+/* BODY */
+body {
+    margin: 0;
+    line-height: 1.55;
+}
+
+
+/* KONTAKT */
+.contact {
+    width: 882px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    padding: 0;
+}
+
+
+/* KONTAKTINFORMATION */
+.contact-info {
+    grid-column: 1;
+}
+
+.contact-info h1 {
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+
+/* IKONER */
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #DD5B0C
+}
+
+.icon-green {
+    color: #42b98b;
+}
+
+/* TEXT BREVID IKONER */
+.contact-label {
+    margin: 0 0 3px;
+    font-weight: bold;
+    color: #aab8b1;
+}
+
+.contact-item p:last-child {
+    margin: 0;
+    color: #91a59b;
+}
+
+
+/*ÖPPETIDER*/
+.opening-hours {
+    margin-top: 30px;
+    color: #91a59b;
+}
+
+.opening-hours div {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 8px;
+}
+
+.opening-hours strong {
+    color: #aab8b1;
+}
+
+
+/*KONTAKT*/
+.contact-form {
+    grid-column: 2;
+}
+
+.contact-form h2 {
+    margin: 0 0 20px;
+    font-size: 22px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 40px;
+
+    padding: 8px 10px;
+
+    border: 1px solid #3b4b43;
+    border-radius: 7px;
+
+    background-color: transparent;
+    color: white;
+
+    font-family: "Karla", sans-serif;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 100px;
+
+    padding: 10px;
+
+    border: 1px solid #3b4b43;
+    border-radius: 7px;
+
+    background-color: transparent;
+    color: white;
+
+    font-family: "Karla", sans-serif;
+
+    resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #687a71;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #42b98b;
+}
+
+.contact-form button {
+    align-self: flex-start;
+
+    margin-top: 15px;
+    padding: 9px 20px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #ff873e;
+    color: #111;
+
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff9b5c;
+}
+
+
+/* KARTA */
+.map-container {
+    grid-column: 1 / 3;
+
+    width: 100%;
+    height: 250px;
+
+    border: 1px solid #2c3a33;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    border: 0;
+}
+
+
+/* SÅ HITTAR DU HIT */
+.direction {
+    width: 882px;
+    margin: 45px auto 0;
+}
+
+.direction h2 {
+    margin: 0 0 5px;
+    font-size: 22px;
+}
+
+.direction-intro {
+    margin: 0 0 28px;
+    color: #91a59b;
+}
+
+.direction-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.direction-card {
+    min-height: 148px;
+
+    padding: 18px;
+
+    background-color: #1b261e;
+
+    border: 1px solid #2c3a33;
+    border-radius: 10px;
+}
+
+.direction-card .icon {
+    margin-bottom: 12px;
+}
+
+.direction-card h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.direction-card p {
+    margin: 0;
+
+    color: #91a59b;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+
+/* FAQ */
+.faq {
+    width: 680px;
+    margin: 50px auto 70px;
+}
+
+.faq h2 {
+    margin-bottom: 18px;
+}
+
+.faq details {
+    border-top: 1px solid #29352f;
+}
+
+.faq details:last-child {
+    border-bottom: 1px solid #29352f;
+}
+
+.faq summary {
+    padding: 13px 0;
+
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary::after {
+    content: "+";
+
+    font-size: 18px;
+    color: #ff873e;
+}
+
+.faq details[open] summary::after {
+    content: "-";
+}
+
+.faq details p {
+    margin: 0;
+    padding: 10px 0;
+
+    color: #91a59b;
+    line-height: 1.5;
+}
